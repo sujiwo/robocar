@@ -1,0 +1,13 @@
+CXX=g++
+CXXFLAGS=-g -O0 -DDEBUG -I../include -I/usr/local/boost/include
+LDFLAGS=
+LIBS=-L/usr/local/boost/lib -lboost_system -lboost_thread -lpthread
+
+librobocar_common.a: hokuyo.o HokuyoDriver.o Message.o MessageQueue.o
+	ar cru librobocar_common.a hokuyo.o HokuyoDriver.o Message.o MessageQueue.o
+
+.o: %.cpp
+	$(CXX) -c $(CXXFLAGS) -o $@ $<
+
+clean:
+	rm librobocar_common.a *.o

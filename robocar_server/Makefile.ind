@@ -1,0 +1,21 @@
+CXX=g++
+CXXFLAGS=-g -O0 -DDEBUG -I../include -I../robocar_common/include -I/usr/local/boost/include -DHW_ROBOCAR
+LDFLAGS=
+LIBS=../robocar_common/src/librobocar_common.a -L/usr/local/boost/lib -L. -lboost_system -lboost_thread -lpthread
+CoreServer=Server.o usb_cam.o USBCameraDriver.o TextSensorDriver.o NetpbmWriter.o ../robocar_common/src/librobocar_common.a
+RobocarHw=DriveControl.o CameraDriver.o IMUDriver.o
+
+robocar_server: ${CoreServer} ${RobocarHw}
+	$(CXX) -o robocar_server ${CoreServer} ${RobocarHw} $(LIBS) -lRcControl -lBaseboard -lIpm -lRcImage
+		
+robocar_server_1: ${CoreServer}
+	$(CXX) -o robocar_server_1 ${CoreServer} $(LIBS)
+
+testpgm: NetpbmWriter.o testpgm.o
+	$(CXX) -o testpgm NetpbmWriter.o testpgm.o
+
+.o: %.cpp
+	$(CXX) -c $(CXXFLAGS) -o $@ $<
+
+clean:
+	rm *.o robocar_server

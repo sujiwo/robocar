@@ -1,0 +1,79 @@
+Idle
+Gyro: -0.536585
+Gyro: -0.536585
+Gyro: 3.92151e-08
+Gyro: 0.536585
+Gyro: 3.92151e-08
+Gyro: 3.92151e-08
+Gyro: 0.536585
+Gyro: -0.536585
+Gyro: -0.536585
+Gyro: 3.92151e-08
+Gyro: 3.92151e-08
+Gyro: 0.536585
+Gyro: 3.92151e-08
+Gyro: 0.536585
+...
+Forward, Turn Left
+Gyro: -1.07317
+Gyro: 0.536585
+Gyro: -2.68292
+Gyro: -17.1707
+Gyro: -15.561
+Gyro: -14.4878
+Gyro: -18.7805
+Gyro: -16.0975
+Gyro: -14.4878
+Gyro: -17.7073
+Gyro: -15.561
+Gyro: -16.0975
+Gyro: -2.14634
+...
+Move Backward
+Gyro: 1.07317
+Gyro: -0.536585
+Gyro: 3.92151e-08
+Gyro: -0.536585
+Gyro: 0.536585
+Gyro: -0.536585
+Gyro: -1.07317
+Gyro: -0.536585
+Gyro: -2.68292
+Gyro: -0.536585
+Gyro: -3.21951
+Gyro: -2.14634
+Gyro: -1.60975
+Gyro: -1.07317
+Gyro: -0.536585
+Gyro: 3.92151e-08
+Gyro: 0.536585
+Gyro: 3.92151e-08
+Gyro: 0.536585
+Gyro: -0.536585
+Gyro: -0.536585
+Gyro: -1.60975
+Gyro: 3.92151e-08
+Gyro: -0.536585
+Gyro: 0.536585
+Gyro: 3.92151e-08
+...
+Forward, Turn Right
+Gyro: 0.536585
+Gyro: 0.536585
+Gyro: 1.07317
+Gyro: 0.536585
+Gyro: 3.92151e-08
+Gyro: 0.536585
+Gyro: 5.36585
+Gyro: 19.3171
+Gyro: 18.2439
+Gyro: 17.7073
+Gyro: 23.0732
+Gyro: 29.5122
+Gyro: 30.0488
+Gyro: 29.5122
+Gyro: 32.7317
+Gyro: 27.3658
+Gyro: 1.60976
+Gyro: 0.536585
+...
